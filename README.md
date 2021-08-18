@@ -1,2 +1,3 @@
-# summer-schools
-This is the repo with lectures from SPACE::LAB summer schools.
+# SPACE::LAB Summer Schools' Files
+
+Jupiter notebooks, slides of presentations, aditional files - from SPACE::LAB Summer School 2019, 2020, and 2021.
