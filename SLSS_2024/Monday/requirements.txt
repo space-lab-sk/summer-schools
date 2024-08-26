@@ -1,0 +1,10 @@
+jupyter
+langchain==0.2.12
+langchain_experimental
+openai==1.40.2
+numexpr==2.10.1
+wikipedia==1.4.0
+hapiclient
+pandas
+numpy
+plotly
