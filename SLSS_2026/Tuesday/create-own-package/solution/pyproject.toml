@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "spectra-demo-adam"
+version = "0.1.0"
+description = "A tiny toolkit for finding peaks in 1-D spectra."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+keywords = ["spectroscopy", "peaks", "teaching"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering",
+]
+dependencies = ["rich>=13.0"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[project.scripts]
+spectra-find = "spectra.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/spectra"]
